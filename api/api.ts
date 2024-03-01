@@ -6,7 +6,6 @@ export const API = {
                 revalidate: 120,
             }
         })
-        //console.log(response.json())
         return response.json()
     },
     async getPost(id: string){
@@ -15,7 +14,6 @@ export const API = {
                 revalidate: 120,
             }
         })
-        //console.log(response.json())
         return response.json()
     }
 }
